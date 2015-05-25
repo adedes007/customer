@@ -1,0 +1,14 @@
+<adapter-config name="getInveOnHand_BS" adapter="apps" wsdlLocation="getInveOnHand_BS.wsdl" xmlns="http://platform.integration.oracle/blocks/adapter/fw/metadata">
+  
+  <connection-factory UIConnectionName="tolysebs1220" location="eis/Apps/Apps" UIOracleAppType="DBOBJECT" UIOracleAppObjList="APPS.MTL_ONHAND_SYNC_V"/>
+  <endpoint-interaction portType="getInveOnHand_BS_ptt" operation="getInveOnHand_BSSelect">
+    <interaction-spec className="oracle.tip.adapter.apps.AppsTableReadInteractionSpec">
+      <property name="DescriptorName" value="getInveOnHand_BS.MtlOnhandSyncV"/>
+      <property name="QueryName" value="getInveOnHand_BSSelect"/>
+      <property name="MappingsMetaDataURL" value="getInveOnHand_BS-or-mappings.xml"/>
+      <property name="ReturnSingleResultSet" value="false"/>
+      <property name="GetActiveUnitOfWork" value="false"/>
+    </interaction-spec>
+  </endpoint-interaction>
+
+</adapter-config>

@@ -1,0 +1,125 @@
+<May 22, 2015 11:08:05 PM EDT> <Info> <oracle.osb.tools-configjar> <BEA-000000> <The temporary directory (/home/oracle/JDEV_USER_DIR/mywork/osbAppSBUX/osbProjONE/.data/maven/configjar/configfwk/osbinstance1432350485177/OSB11gConfig) has been created for the configuration framework data. This directory will not be automatically deleted.> 
+<May 22, 2015 11:08:05 PM EDT> <Info> <oracle.osb.offline.kernel-offline.kerneloffline> <OSB-2030850> <Initializing ALSB in offline mode. Install dir: /u01/app/oracle/product/Middleware/soaqs/12.1.3/osb config dir: /home/oracle/JDEV_USER_DIR/mywork/osbAppSBUX/osbProjONE/.data/maven/configjar/configfwk/osbinstance1432350485177/OSB11gConfig> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Resource SDK".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Resource SDK" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Custom Resource SDK".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Custom Resource SDK" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "XSLT Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "XSLT Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "XML Schema Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "XML Schema Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "NXSD Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "NXSD Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "MFL Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "MFL Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "DVM Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "DVM Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Xref Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Xref Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "WS-Policy Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "WS-Policy Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "WSDL Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "WSDL Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "WADL Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "WADL Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "XQuery Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "XQuery Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "XML Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "XML Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "JavaScript Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "JavaScript Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "JCA Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "JCA Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Archive Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Archive Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "JNDI Provider Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "JNDI Provider Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "SMTP Server Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "SMTP Server Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Proxy Server Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Proxy Server Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Global Settings Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Global Settings Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "UDDI Registry Resource".> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "UDDI Registry Resource" initialized.> 
+<May 22, 2015 11:08:18 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Alert Destination Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Alert Destination Resource" initialized.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Services".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Services" initialized.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Pipeline Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Pipeline Resource" initialized.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Common Service Resources".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Common Service Resources" initialized.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Proxy Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Proxy Resource" initialized.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Business Service Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Business Service Resource" initialized.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Upgraders".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Upgraders" initialized.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "FLOW Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "FLOW Resource" initialized.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397001> <Initializing type definitions for module "Throttling Group Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397002> <Type definitions for module "Throttling Group Resource" initialized.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Resource SDK".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Resource SDK" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Custom Resource SDK".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Custom Resource SDK" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "XSLT Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "XSLT Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "XML Schema Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "XML Schema Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "NXSD Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "NXSD Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "MFL Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "MFL Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "DVM Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "DVM Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Xref Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Xref Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "WS-Policy Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "WS-Policy Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "WSDL Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "WSDL Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "WADL Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "WADL Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "XQuery Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "XQuery Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "XML Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "XML Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "JavaScript Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "JavaScript Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "JCA Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "JCA Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Archive Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Archive Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "JNDI Provider Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "JNDI Provider Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "SMTP Server Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "SMTP Server Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Proxy Server Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Proxy Server Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Global Settings Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Global Settings Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "UDDI Registry Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "UDDI Registry Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Alert Destination Resource".> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Alert Destination Resource" started.> 
+<May 22, 2015 11:08:19 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Services".> 
+<May 22, 2015 11:08:20 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Services" started.> 
+<May 22, 2015 11:08:20 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Pipeline Resource".> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Pipeline Resource" started.> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Common Service Resources".> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Common Service Resources" started.> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Proxy Resource".> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Proxy Resource" started.> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Business Service Resource".> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Business Service Resource" started.> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Upgraders".> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Upgraders" started.> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "FLOW Resource".> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "FLOW Resource" started.> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397003> <Starting services for module "Throttling Group Resource".> 
+<May 22, 2015 11:08:21 PM EDT> <Info> <oracle.osb.resources.core.resourcemanagement> <OSB-397004> <Services for module "Throttling Group Resource" started.> 
+<May 22, 2015 11:08:22 PM EDT> <Info> <oracle.osb.tools-configjar> <BEA-000000> <OSB offline instance has started.> 
+<May 22, 2015 11:08:22 PM EDT> <Info> <oracle.osb.tools-configjar> <BEA-000000> <OSB Config Jar /home/oracle/JDEV_USER_DIR/mywork/osbAppSBUX/osbProjONE/.data/maven/sbconfig.sbar has been created successfully.> 
+<May 22, 2015 11:08:22 PM EDT> <Info> <oracle.osb.tools-configjar> <BEA-000000> <Config Jar tool completed.> 

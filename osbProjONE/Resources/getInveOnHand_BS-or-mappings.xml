@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object-persistence xmlns="http://www.eclipse.org/eclipselink/xsds/persistence" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:eclipselink="http://www.eclipse.org/eclipselink/xsds/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd">
+   <name>getInveOnHand_BS-OR</name>
+   <class-mapping-descriptors>
+      <class-mapping-descriptor xsi:type="object-relational-class-mapping-descriptor">
+         <class>getInveOnHand_BS.MtlOnhandSyncV</class>
+         <alias>MTL_ONHAND_SYNC_V</alias>
+         <primary-key>
+            <field table="MTL_ONHAND_SYNC_V" name="ITEM_ID" xsi:type="column"/>
+            <field table="MTL_ONHAND_SYNC_V" name="SUBINVENTORY" xsi:type="column"/>
+         </primary-key>
+         <events/>
+         <querying>
+            <queries>
+               <query name="getInveOnHand_BSSelect" xsi:type="read-all-query">
+                  <arguments>
+                     <argument name="pItemId">
+                        <type>java.lang.String</type>
+                     </argument>
+                     <argument name="pSubInv">
+                        <type>java.lang.String</type>
+                     </argument>
+                  </arguments>
+                  <call xsi:type="sql-call">
+                     <sql>SELECT CATEGORY, WAREHOUSE_ID, WAREHOUSE, ITEM_ID, ITEM, ITEM_DESCRIPTION, REVISION, SUBINVENTORY, &quot;LOCATOR&quot;, LOT, LPN, PARENT_LPN, SERIAL, CONTAINERIZED_FLAG, PRIMARY_QUANTITY, PRIMARY_UOM, SECONDARY_QUANTITY, SECONDARY_UOM, SNAPSHOT_DATE, ONHAND_STATUS FROM MTL_ONHAND_SYNC_V WHERE ((ITEM_ID = #pItemId) AND (SUBINVENTORY = #pSubInv))</sql>
+                  </call>
+                  <reference-class>getInveOnHand_BS.MtlOnhandSyncV</reference-class>
+                  <container xsi:type="list-container-policy">
+                     <collection-type>java.util.Vector</collection-type>
+                  </container>
+               </query>
+            </queries>
+         </querying>
+         <attribute-mappings>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>category</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="CATEGORY" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>warehouseId</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="WAREHOUSE_ID" xsi:type="column"/>
+               <attribute-classification>java.math.BigDecimal</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>warehouse</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="WAREHOUSE" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>itemId</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="ITEM_ID" xsi:type="column"/>
+               <attribute-classification>java.math.BigDecimal</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>item</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="ITEM" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>itemDescription</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="ITEM_DESCRIPTION" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>revision</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="REVISION" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>subinventory</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="SUBINVENTORY" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>locator</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="LOCATOR" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>lot</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="LOT" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>lpn</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="LPN" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>parentLpn</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="PARENT_LPN" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>serial</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="SERIAL" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>containerizedFlag</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="CONTAINERIZED_FLAG" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>primaryQuantity</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="PRIMARY_QUANTITY" xsi:type="column"/>
+               <attribute-classification>java.math.BigDecimal</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>primaryUom</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="PRIMARY_UOM" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>secondaryQuantity</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="SECONDARY_QUANTITY" xsi:type="column"/>
+               <attribute-classification>java.math.BigDecimal</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>secondaryUom</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="SECONDARY_UOM" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>snapshotDate</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="SNAPSHOT_DATE" xsi:type="column"/>
+               <attribute-classification>java.sql.Timestamp</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>onhandStatus</attribute-name>
+               <field table="MTL_ONHAND_SYNC_V" name="ONHAND_STATUS" xsi:type="column"/>
+               <attribute-classification>java.lang.String</attribute-classification>
+            </attribute-mapping>
+            <attribute-mapping xsi:type="direct-mapping">
+               <attribute-name>rowid</attribute-name>
+               <properties>
+                  <property name="blackedOut">
+                     <value>true</value>
+                  </property>
+               </properties>
+               <field name="ROWID" xsi:type="column"/>
+               <attribute-classification>java.lang.Object</attribute-classification>
+            </attribute-mapping>
+         </attribute-mappings>
+         <descriptor-type>independent</descriptor-type>
+         <caching>
+            <cache-type>weak-reference</cache-type>
+            <cache-size>-1</cache-size>
+            <always-refresh>true</always-refresh>
+         </caching>
+         <remote-caching>
+            <cache-type>weak-reference</cache-type>
+            <cache-size>-1</cache-size>
+         </remote-caching>
+         <instantiation/>
+         <copying xsi:type="instantiation-copy-policy"/>
+         <tables>
+            <table name="MTL_ONHAND_SYNC_V"/>
+         </tables>
+         <structure>structureName</structure>
+      </class-mapping-descriptor>
+   </class-mapping-descriptors>
+   <login xsi:type="database-login">
+      <platform-class>org.eclipse.persistence.platform.database.oracle.Oracle9Platform</platform-class>
+      <connection-url></connection-url>
+   </login>
+</object-persistence>

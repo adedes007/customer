@@ -1,0 +1,32 @@
+<wsdl:definitions
+     name="getInveOnHand_BS"
+     targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/apps/osbAppSBUX/osbProjONE/getInveOnHand_BS"
+     xmlns:tns="http://xmlns.oracle.com/pcbpel/adapter/apps/osbAppSBUX/osbProjONE/getInveOnHand_BS"
+     xmlns:jca="http://xmlns.oracle.com/pcbpel/wsdl/jca/"
+     xmlns:plt="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+     xmlns:top="http://xmlns.oracle.com/pcbpel/adapter/db/top/getInveOnHand_BS"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    >
+  <plt:partnerLinkType name="getInveOnHand_BS_plt" >
+    <plt:role name="getInveOnHand_BS_role" >
+      <plt:portType name="tns:getInveOnHand_BS_ptt" />
+    </plt:role>
+  </plt:partnerLinkType>
+    <wsdl:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema" >
+        <import namespace="http://xmlns.oracle.com/pcbpel/adapter/db/top/getInveOnHand_BS" schemaLocation="getInveOnHand_BS_table.xsd" />
+      </schema>
+    </wsdl:types>
+    <wsdl:message name="getInveOnHand_BSSelect_inputParameters">
+        <wsdl:part name="getInveOnHand_BSSelect_inputParameters" element="top:getInveOnHand_BSSelect_pItemId_pSubInvInputParameters"/>
+    </wsdl:message>
+    <wsdl:message name="MtlOnhandSyncVCollection_msg">
+        <wsdl:part name="MtlOnhandSyncVCollection" element="top:MtlOnhandSyncVCollection"/>
+    </wsdl:message>
+    <wsdl:portType name="getInveOnHand_BS_ptt">
+        <wsdl:operation name="getInveOnHand_BSSelect">
+            <wsdl:input message="tns:getInveOnHand_BSSelect_inputParameters"/>
+            <wsdl:output message="tns:MtlOnhandSyncVCollection_msg"/>
+        </wsdl:operation>
+    </wsdl:portType>
+</wsdl:definitions>
