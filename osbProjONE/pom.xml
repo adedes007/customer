@@ -2,22 +2,8 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <modelVersion>4.0.0</modelVersion>
-    
-    <properties>
-    <serverUrl>http://oel65db12c.oracle.com:9001</serverUrl>
-    <user>weblogic</user>
-    <password>welcome1</password>
-    <overwrite>true</overwrite>
-    <forceDefault>true</forceDefault>
-    <regenerateRulebase>false</regenerateRulebase>
-    <keepInstancesOnRedeploy>false</keepInstancesOnRedeploy>
-    
-    </properties>
 
 
-    
-    
-    
     <parent>
         <groupId>com.oracle.servicebus</groupId>
         <artifactId>sbar-project-common</artifactId>
@@ -25,15 +11,43 @@
     </parent>
 
 
-    
     <groupId>osbAppSBUX</groupId>
     <artifactId>osbProjONE</artifactId>
     <version>1.0-SNAPSHOT</version>
     
-    
-
-
     <packaging>sbar</packaging>
+
+<build>
+     <plugins>
+       <plugin>
+          <groupId>com.github.redfish4ktc.soapui</groupId>
+          <artifactId>maven-soapui-extension-plugin</artifactId>
+          <version>4.6.4.1</version>
+          <executions>
+            <execution>
+              <phase>pre-integration-test</phase>
+              <goals>
+                <goal>test</goal>
+              </goals>
+            </execution>
+          </executions>
+          <configuration>
+            <projectFile>/home/oracle/soapUI-projects/osbProjONE-soapui-project.xml</projectFile>
+            <junitReport>true</junitReport>
+            <outputFolder>target/junit-reports</outputFolder>
+          </configuration>
+        </plugin>
+      </plugins>
+    </build>
+	
+    <pluginRepositories>
+      <pluginRepository>
+        <id>smartbear-sweden-plugin-repository</id>
+        <url>http://www.soapui.org/repository/maven2/</url>
+      </pluginRepository>
+    </pluginRepositories>
+
+
 
     <description/>
 
