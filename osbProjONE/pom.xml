@@ -17,6 +17,7 @@
     
     <packaging>sbar</packaging>
 
+<!-- 
 <build>
      <plugins>
        <plugin>
@@ -39,7 +40,8 @@
         </plugin>
       </plugins>
     </build>
-	
+-->
+
     <pluginRepositories>
       <pluginRepository>
         <id>smartbear-sweden-plugin-repository</id>
