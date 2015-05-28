@@ -3,6 +3,15 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+    <oracleServerUrl>http://oel65db12c.oracle.com:9001</oracleServerUrl>
+    <oracleUsername>weblogic</oracleUsername>
+    <oraclePassword>welcome1</oraclePassword>
+    <overwrite>true</overwrite>
+    <forceDefault>true</forceDefault>
+    <regenerateRulebase>false</regenerateRulebase>
+    <keepInstancesOnRedeploy>false</keepInstancesOnRedeploy>
+    </properties>
 
     <parent>
         <groupId>com.oracle.servicebus</groupId>
@@ -17,7 +26,7 @@
     
     <packaging>sbar</packaging>
 
-<!-- 
+
 <build>
      <plugins>
        <plugin>
@@ -40,7 +49,6 @@
         </plugin>
       </plugins>
     </build>
--->
 
     <pluginRepositories>
       <pluginRepository>

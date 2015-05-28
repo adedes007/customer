@@ -3,6 +3,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+
+
     <properties>
     <oracleServerUrl>http://oel65db12c.oracle.com:9001</oracleServerUrl>
     <oracleUsername>weblogic</oracleUsername>
@@ -11,7 +13,6 @@
     <forceDefault>true</forceDefault>
     <regenerateRulebase>false</regenerateRulebase>
     <keepInstancesOnRedeploy>false</keepInstancesOnRedeploy>
-    
     </properties>
 
     <groupId>osbAppSBUX</groupId>
@@ -21,8 +22,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>System</module>
+        <!-- <module>System</module> -->
         <module>osbProjONE</module>
     </modules>
+
+
 
 </project>

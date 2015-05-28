@@ -1,0 +1,78 @@
+<?xml version= '1.0' encoding= 'UTF-8' ?>
+<xs:schema targetNamespace="http://www.sbux.com/soasample" elementFormDefault="qualified" attributeFormDefault="unqualified"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sbux.com/soasample">
+    <xs:element name="Order"
+         type="OrderType">
+        <xs:annotation>
+            <xs:documentation>The canonical order element</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:simpleType name="MoneyType">
+        <xs:restriction base="xs:double"/>
+    </xs:simpleType>
+    <xs:simpleType name="OrderNumberType">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="25"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="NameType">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="ItemType">
+        <xs:annotation>
+            <xs:documentation>This information will be populated from INVDTA/ITMMSTP from bronze where product_id = isku</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="SKU">
+                <xs:annotation>
+                    <xs:documentation>Column ISKU</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:length value="5"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Quantity" type="xs:int"/>
+            <xs:element name="UnitPrice" type="MoneyType"/>
+            <xs:element name="Description" nillable="true">
+                <xs:annotation>
+                    <xs:documentation/>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:maxLength value="30"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="OrderType">
+        <xs:sequence>
+            <xs:element name="OrderNumber" type="OrderNumberType" minOccurs="0"/>
+            <xs:element name="OrderDate" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="Items">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Item" type="ItemType" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="TotalOrderAmount" type="MoneyType">
+                <xs:annotation>
+                    <xs:documentation>The total order amount element</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="Status" type="xs:string" minOccurs="0"/>
+			<xs:element name="ErrorFlag" type="xs:string" minOccurs="0"/>
+			<xs:element name="ErrorMessage" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="OrderAckType">
+        <xs:sequence>
+            <xs:element name="OrderNumber" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

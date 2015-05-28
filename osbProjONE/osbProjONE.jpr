@@ -118,7 +118,15 @@
    </hash>
    <hash n="oracle.ide.model.TechnologyScopeConfiguration">
       <list n="technologyScope">
+         <string v="Database"/>
+         <string v="Java"/>
+         <string v="Maven"/>
          <string v="ServiceBusTechnology"/>
+         <string v="TopLink"/>
+         <string v="WSDL"/>
+         <string v="WSPolicy"/>
+         <string v="XML"/>
+         <string v="XML_SCHEMA"/>
       </list>
    </hash>
    <hash n="oracle.jdeveloper.compiler.OjcConfiguration">
@@ -146,6 +154,9 @@
          </list>
       </hash>
       <hash n="javaContentSet">
+         <list n="pattern-filters">
+            <string v="+**"/>
+         </list>
          <list n="url-path">
             <url path="."/>
          </list>
@@ -203,4 +214,9 @@
          </list>
       </hash>
    </hash>
+   <hash n="ResourceBundleOptions">
+      <list n="RegisteredResourceBundles"/>
+   </hash>
+   <value n="SOA_TRANSFORMATION_FOLDER_NAME" v="XSLT/"/>
+   <value n="SOA_WSDL_FOLDER_NAME" v=""/>
 </jpr:project>
